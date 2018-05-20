@@ -22,7 +22,13 @@ export DRONE_SECRET=<任意の文字列>
 ./ngrok http 8080
 ```
 
+[Drone CLI](http://docs.drone.io/cli-installation/)を入れておくと下のようなコマンドで動作確認できるから便利
+```
+drone exec --local
+```
+
 # 参考
 - [公式ドキュメント](http://docs.drone.io/installation/)
 - [Jenkinsに代わるGo製OSS CIツールDrone](https://engineering.linecorp.com/ja/blog/detail/218)
 - [ngrokを使用してローカル環境を外部に公開する](https://qiita.com/kitaro729/items/44214f9f81d3ebda58bd)
+- [drone-cliのdrone execでdrone.io用のpipelineをローカルで実行する](https://qiita.com/sawanoboly/items/e8dc63a8083e7b1aa797)
