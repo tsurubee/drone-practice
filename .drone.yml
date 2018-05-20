@@ -1,5 +1,5 @@
-pipeline:
-  build:
-    image: alpine:3.6
-    commands:
-      - echo "Hello World"
+build:
+  image: centos:7
+  commands:
+    - echo "Hello World"
+    - git diff master

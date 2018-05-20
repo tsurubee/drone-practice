@@ -24,7 +24,7 @@ export DRONE_SECRET=<任意の文字列>
 
 [Drone CLI](http://docs.drone.io/cli-installation/)を入れておくと下のようなコマンドで動作確認できるから便利
 ```
-drone exec --local
+drone exec
 ```
 
 # 参考
