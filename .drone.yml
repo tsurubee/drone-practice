@@ -5,3 +5,5 @@ pipeline:
       - yum install -y git
       - cd /drone/src/github.com/tsurubee/drone-practice && ls
       - git diff master
+      - git branch
+      - git status
