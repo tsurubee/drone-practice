@@ -1,5 +1,5 @@
 # drone-practice
-Golang製のCIツール「[Drone(https://github.com/drone/drone)」のトレーニング用リポジトリ
+Golang製のCIツール[Drone](https://github.com/drone/drone)のトレーニング用リポジトリ
 
 # Drone
 DroneはGitリポジトリのPRやtagのプッシュなどのイベントをフックしDockerコンテナ内でジョブを実行することに特化したCIツールである。
