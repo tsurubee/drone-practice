@@ -2,6 +2,6 @@ pipeline:
   build:
     image: centos:7
     commands:
-      - echo "Hello World"
-      - find /
+      - yum install -y git
       - cd /drone/src/github.com/tsurubee/drone-practice && ls
+      - git diff master
