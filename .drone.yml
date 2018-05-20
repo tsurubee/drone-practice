@@ -1,5 +1,6 @@
-build:
-  image: centos:7
-  commands:
-    - echo "Hello World"
-    - git diff master
+pipeline:
+  build:
+    image: centos:7
+    commands:
+      - echo "Hello World"
+      - git diff master
