@@ -3,4 +3,5 @@ pipeline:
     image: centos:7
     commands:
       - echo "Hello World"
-      - git diff master
+      - find ./
+      - cd ./drone/src/github.com/tsurubee/drone-practice && ls
